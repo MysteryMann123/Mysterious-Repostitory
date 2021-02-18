@@ -1,0 +1,41 @@
+Fee1 = 1200.50
+Fee23A = 1789.00
+Fee23B = 2005.00
+Fee23O = 2200.00
+Fee4 = 2555.00
+
+name = input('Please enter your name here:')
+year = eval(input('Please enter your year of study:'))
+
+if year == 1:
+    print(name)
+    print('Your current Bill for your year is RM' , format(Fee1,'.2f'))
+
+if year == 2:
+    Code = input('Please enter your student code:')
+    if Code == "A":
+        print(name)
+        print('Your current Bill for your year is RM' , format(Fee23A,'.2f'))
+    if Code == "B":
+        print(name)
+        print('Your current Bill for your year is RM' , format(Fee23B ,'.2f'))
+    else:
+            print(name)
+            print('Your current Bill for your year is RM' , format(Fee23O,'.2f'))
+
+if year == 3:
+    Code = input('Please enter your student code:')
+    if Code == "A":
+        print(name)
+        print('Your current Bill for your year is RM' , format(Fee23A,'.2f'))
+    if Code == "B":
+        print(name)
+        print('Your current Bill for your year is RM' , format(Fee23B ,'.2f'))
+    else:
+            print(name)
+            print('Your current Bill for your year is RM' , format(Fee23O,'.2f'))
+
+if year == 4:
+    print(name)
+    print('Your current Bill for your year is RM' , format(Fee4,'.2f'))
+    
